@@ -28,3 +28,4 @@ const bucket = new TokenBucket(5,1);
 setInterval(()=>{
     console.log(bucket.consume());
 },200)
+
